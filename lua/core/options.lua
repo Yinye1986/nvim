@@ -15,7 +15,7 @@ opt.autoindent = true -- 自动缩进
 opt.smartindent = true -- 智能缩进
 opt.shiftround = true -- 缩进操作时，使得行的缩进总是 shiftwidth 的倍数
 
-opt.wrap = true -- 自动折行
+opt.wrap = false -- 自动折行
 opt.hlsearch = false -- 高亮搜索结果
 opt.cursorline = true -- 高亮当前行
 
