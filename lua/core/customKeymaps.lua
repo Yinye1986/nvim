@@ -9,20 +9,20 @@ keymap.set({ "n", "v" }, "n", "h", { noremap = true, silent = true })
 keymap.set({ "n", "v" }, "i", "l", { noremap = true, silent = true })
 keymap.set({ "n", "v" }, "<C-u>", "6k", { noremap = true, silent = true }) -- nv单行单格
 keymap.set({ "n", "v" }, "<C-e>", "6j", { noremap = true, silent = true })
-keymap.set({ "n", "v" }, "<C-n>", "ge", { noremap = true, silent = true })   -- 上一个单词的结尾
-keymap.set({ "n", "v" }, "<C-i>", "w", { noremap = true, silent = true })    -- 下一个单词的开头
+keymap.set({ "n", "v" }, "<C-n>", "ge", { noremap = true, silent = true }) -- 上一个单词的结尾
+keymap.set({ "n", "v" }, "<C-i>", "w", { noremap = true, silent = true })  -- 下一个单词的开头
 
-keymap.set({ "n", "i" }, "<C-[>", "<ESC>I", { noremap = true, silent = true })
-keymap.set({ "n", "i" }, "<C-]>", "<ESC>A", { noremap = true, silent = true })
+keymap.set({ "n", "v", "i" }, "<C-[>", "<ESC>I", { noremap = true, silent = true })
+keymap.set({ "n", "v", "i" }, "<C-]>", "<ESC>A", { noremap = true, silent = true })
 
-keymap.set("i", "<C-u>", "<Up>", { noremap = true, silent = true })          -- i微调
+keymap.set("i", "<C-u>", "<Up>", { noremap = true, silent = true }) -- i微调
 keymap.set("i", "<C-e>", "<Down>", { noremap = true, silent = true })
 keymap.set("i", '<C-n>', '<Left>', { noremap = true, silent = true })
 keymap.set("i", '<C-i>', '<Right>', { noremap = true, silent = true })
 
 -- 横向翻页
-keymap.set({"n", "v", "i" }, "<PageUp>", "<Home>", { noremap = true, silent = true })
-keymap.set({"n", "v", "i" }, "<PageDown>", 'zL', { noremap = true, silent = true })
+keymap.set({ "n", "v", "i" }, "<PageUp>", "<Home>", { noremap = true, silent = true })
+keymap.set({ "n", "v", "i" }, "<PageDown>", 'zL', { noremap = true, silent = true })
 
 -- 多标签
 keymap.set({ "n", "v", "i" }, "<C-Tab>", "gt", { noremap = true, silent = true })
@@ -60,7 +60,7 @@ keymap.set("n", "a", "i", { noremap = true, silent = true })
 keymap.set({ "n", "v", "i" }, '<C-o>', '<Esc>', { noremap = true, silent = true })
 
 keymap.set({ "n", "v" }, "<C-v>", "<C-v>", { noremap = true, silent = true })
-keymap.set({ "n", "v" }, "V", "V", { noremap = true, silent = true })         -- nv切换v-line
+keymap.set({ "n", "v" }, "V", "V", { noremap = true, silent = true }) -- nv切换v-line
 
 -- 功能键（对nvim）
 keymap.set({ "n", "i", "v" }, "<F5>", ":source<CR>", { noremap = true, silent = false })
@@ -69,12 +69,12 @@ keymap.set({ "n", "i", "v" }, "<F5>", ":source<CR>", { noremap = true, silent = 
 keymap.set("n", ":", ":", { noremap = true, silent = false })
 keymap.set("n", ";", ":", { noremap = true, silent = false })
 
-keymap.set({"n", "i"}, "<tab>", "<tab>", { noremap = true, silent = true })
-keymap.set({"n", "v", "i"}, "<ESC>", "<ESC>", { noremap = true, silent = true })
+keymap.set({ "n", "i" }, "<tab>", "<tab>", { noremap = true, silent = true })
+keymap.set({ "n", "v", "i" }, "<ESC>", "<ESC>", { noremap = true, silent = true })
 
 keymap.set("n", "l", "n", { noremap = true, silent = true })
 keymap.set("n", "L", "N", { noremap = true, silent = true })
-keymap.set("n", "<C-r>", "u", { noremap = true, silent = true })
+keymap.set({ "n", "i" }, "<C-r>", "u", { noremap = true, silent = true })
 keymap.set("n", "rr", "<C-r>", { noremap = true, silent = true })
 
 
@@ -82,4 +82,4 @@ keymap.set("n", "rr", "<C-r>", { noremap = true, silent = true })
 keymap.set("i", "<C-W>", "<Nop>", { noremap = true, silent = true })
 
 -- tmp
-keymap.set({"n", "v", "i"}, "<F2>", "@1")
+keymap.set({ "n", "v", "i" }, "<F2>", "@1")

@@ -1,1 +1,2 @@
-BTW I USE NVIM
+# nvim
+My nvim configuration.
