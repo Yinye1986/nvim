@@ -1,3 +1,3 @@
 return {
-    dir = "~/.local/share/nvim/lazy/nvimLsp"
+    "Yinye1986/nvimLsp",
 }
