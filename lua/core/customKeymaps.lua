@@ -28,7 +28,7 @@ keymap.set("v", "I", ">gv", { noremap = true, silent = true })
 
 -- 横向翻页
 keymap.set({ "n", "v", "i" }, "<PageUp>", "<Home>", { noremap = true, silent = true })
-keymap.set({ "n", "v", "i" }, "<PageDown>", 'zL', { noremap = true, silent = true })
+keymap.set({ "n", "v", "i" }, "<PageDown>", '<ESC>zL', { noremap = true, silent = true })
 
 --- 多标签 ---
 keymap.set({ "n", "v", "i" }, "<C-Tab>", "gt", { noremap = true, silent = true })
