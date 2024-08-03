@@ -57,3 +57,8 @@ vim.api.nvim_create_autocmd({ "TextYankPost" }, {
         })
     end,
 })
+
+vim.o.foldenable = true         -- 启用折叠
+vim.o.foldmethod = 'expr'       -- 使用表达式折叠
+vim.o.foldexpr = 'nvim_treesitter#foldexpr()'  -- 使用 Treesitter 的折叠表达式
+vim.o.foldlevel = 99            -- 默认展开大多数折叠

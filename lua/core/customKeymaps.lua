@@ -70,3 +70,8 @@ keymap.set("n", "rr", "<C-r>", { noremap = true, silent = true })
 --- 快捷键 ---
 keymap.set({ "n", "i", "v" }, "<F5>", ":source<CR>", { noremap = true, silent = false })
 keymap.set({ "n", "v", "i" }, "<F2>", "@1")
+
+--- 折叠 ---
+keymap.set("n", "zz", ":normal! zc<CR>")
+keymap.set("n", "zo", ":normal! zo<CR>")
+
