@@ -6,10 +6,11 @@
   "leap.nvim": { "branch": "main", "commit": "a9a9faee45066f2796c9a0e0ef52bf571d144492" },
   "lualine.nvim": { "branch": "master", "commit": "544dd1583f9bb27b393f598475c89809c4d5e86b" },
   "mason.nvim": { "branch": "main", "commit": "e2f7f9044ec30067bc11800a9e266664b88cda22" },
+  "nvim-colorizer.lua": { "branch": "master", "commit": "a065833f35a3a7cc3ef137ac88b5381da2ba302e" },
   "nvim-navic": { "branch": "master", "commit": "8649f694d3e76ee10c19255dece6411c29206a54" },
   "nvim-surround": { "branch": "main", "commit": "ec2dc7671067e0086cdf29c2f5df2dd909d5f71f" },
   "nvim-treesitter": { "branch": "master", "commit": "667b9dbbfa2d0071c5677c429ddcf89fb931b53f" },
   "nvim-web-devicons": { "branch": "master", "commit": "e612de3d3a41a6b7be47f51e956dddabcbf419d9" },
-  "nvimLsp": { "branch": "main", "commit": "73e977182153e5f9fd320aa625b27479caf35411" },
+  "nvimLsp": { "branch": "main", "commit": "caf27cb32b86c0d93e7de26ba9a84025576c7678" },
   "nvimScript": { "branch": "main", "commit": "d6fdd8b6398de19f37f2b2d1a013fc3620e490f0" }
 }
