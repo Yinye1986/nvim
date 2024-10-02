@@ -2,6 +2,7 @@
   "barbecue": { "branch": "main", "commit": "cd7e7da622d68136e13721865b4d919efd6325ed" },
   "flit.nvim": { "branch": "main", "commit": "a9be4e76c30a128f1e51af448c8321bf8366bcd4" },
   "gruvbox.nvim": { "branch": "main", "commit": "7a1b23e4edf73a39642e77508ee6b9cbb8c60f9e" },
+  "indent-blankline.nvim": { "branch": "master", "commit": "18603eb949eba08300799f64027af11ef922283f" },
   "lazy.nvim": { "branch": "main", "commit": "077102c5bfc578693f12377846d427f49bc50076" },
   "leap.nvim": { "branch": "main", "commit": "a9a9faee45066f2796c9a0e0ef52bf571d144492" },
   "lualine.nvim": { "branch": "master", "commit": "544dd1583f9bb27b393f598475c89809c4d5e86b" },
@@ -11,6 +12,6 @@
   "nvim-surround": { "branch": "main", "commit": "ec2dc7671067e0086cdf29c2f5df2dd909d5f71f" },
   "nvim-treesitter": { "branch": "master", "commit": "667b9dbbfa2d0071c5677c429ddcf89fb931b53f" },
   "nvim-web-devicons": { "branch": "master", "commit": "e612de3d3a41a6b7be47f51e956dddabcbf419d9" },
-  "nvimLsp": { "branch": "main", "commit": "caf27cb32b86c0d93e7de26ba9a84025576c7678" },
-  "nvimScript": { "branch": "main", "commit": "d6fdd8b6398de19f37f2b2d1a013fc3620e490f0" }
+  "nvimLsp": { "branch": "main", "commit": "7c4b9732cc85a4dd2daf1b6ad4011f93018b933b" },
+  "nvimScript": { "branch": "main", "commit": "1a416da6c22c6e4e03f3e608b4d881a3cf377814" }
 }
