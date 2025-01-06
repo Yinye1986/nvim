@@ -11,12 +11,13 @@ opt.number = true -- 绝对行号
 opt.tabstop = 4 -- 制表符空格数
 opt.shiftwidth = 4 -- 缩进宽度
 opt.expandtab = true -- 使用空格代替制表符
-opt.autoindent = true -- 自动缩进
-opt.smartindent = true -- 智能缩进
+opt.autoindent = false -- 自动缩进
+opt.smartindent = false -- 智能缩进
+opt.cindent = false --缩进
 opt.shiftround = true -- 缩进操作时，使得行的缩进总是 shiftwidth 的倍数
 
 opt.wrap = false -- 自动折行
-opt.hlsearch = false -- 高亮搜索结果
+opt.hlsearch = true -- 高亮搜索结果
 opt.cursorline = true -- 高亮当前行
 
 opt.wildmenu = true -- 命令行补全时，使用菜单
@@ -58,7 +59,7 @@ vim.api.nvim_create_autocmd({ "TextYankPost" }, {
     end,
 })
 
-vim.o.foldenable = true         -- 启用折叠
-vim.o.foldmethod = 'expr'       -- 使用表达式折叠
-vim.o.foldexpr = 'nvim_treesitter#foldexpr()'  -- 使用 Treesitter 的折叠表达式
-vim.o.foldlevel = 99            -- 默认展开大多数折叠
+opt.foldenable = true         -- 启用折叠
+opt.foldmethod = 'expr'       -- 使用表达式折叠
+opt.foldexpr = 'nvim_treesitter#foldexpr()'  -- 使用 Treesitter 的折叠表达式
+opt.foldlevel = 99            -- 默认展开大多数折叠

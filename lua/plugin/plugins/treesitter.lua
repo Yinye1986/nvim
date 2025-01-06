@@ -13,7 +13,7 @@ return {
                 enable = true,
             },
             indent ={
-                enable = true,
+                enable = false,
             },
             fold = {
                 enable = true,  -- Make sure this is enabled
