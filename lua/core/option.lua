@@ -63,3 +63,7 @@ opt.foldenable = true         -- 启用折叠
 opt.foldmethod = 'expr'       -- 使用表达式折叠
 opt.foldexpr = 'nvim_treesitter#foldexpr()'  -- 使用 Treesitter 的折叠表达式
 opt.foldlevel = 99            -- 默认展开大多数折叠
+
+
+vim.g.loaded_netrw = 1
+vim.g.loaded_netrwPlugin = 1

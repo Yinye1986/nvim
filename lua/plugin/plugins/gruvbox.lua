@@ -17,7 +17,6 @@ return {
         invert_selection = false,
         invert_signs = false,
         invert_tabline = false,
-        invert_intend_guides = false,
         inverse = true, -- invert background for search, diffs, statuslines and errors
         contrast = "",  -- can be "hard", "soft" or empty string
         palette_overrides = {},
@@ -26,6 +25,7 @@ return {
         transparent_mode = false,
     },
     config = function()
-        vim.cmd("colorscheme gruvbox")
+        vim.o.background = "dark"
+        vim.cmd([[colorscheme gruvbox]])
     end,
 }

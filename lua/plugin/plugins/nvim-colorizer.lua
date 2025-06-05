@@ -1,13 +1,14 @@
 return {
     "norcalli/nvim-colorizer.lua",
-    config = function()
-        require 'colorizer'.setup {
-            'css';
-            'javascript';
-            html = {
-                mode = 'foreground';
-            }
+    opts = {
+        'html';
+        'css';
+        'javascript';
+        'lua';
+        html = {
+            mode = 'foreground';
         }
+    },
+    config = function()
     end
-
 }
