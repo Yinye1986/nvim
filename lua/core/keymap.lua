@@ -1,4 +1,4 @@
-vim.g.mapleader = "'"
+vim.g.mapleader = " "
 
 --- 光标移动 ---
 vim.keymap.set({ "n", "v" }, "u", "k", { noremap = true, silent = true })

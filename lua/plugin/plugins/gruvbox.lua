@@ -24,7 +24,8 @@ return {
         dim_inactive = false,
         transparent_mode = false,
     },
-    config = function()
+    config = function(_, opts)
+        require('gruvbox').setup(opts)
         vim.o.background = "dark"
         vim.cmd([[colorscheme gruvbox]])
     end,
